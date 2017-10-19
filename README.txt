@@ -1,13 +1,7 @@
 Developer setup:
 install python 3.6
-open up an interactive window
+open up cmd or powershell
+navigate to the folder in which these files are stored.
+./python.exe ./BusinessCardReader.py
 
->>> import pip
->>> pip.download()
->>> import nltk
->>> nltk.download('all')
->>> nltk.download("punkt")
->>> import numpy
->>> numpy.download()
-
-now you can run the program through the command line by typing "python BusinessCardReader.py" 
+This should execute the code with the needed libraries packaged into the python enviroment. currently the code is running the three function with a few tests that I made based on your specifications.
